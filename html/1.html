@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Responsive website</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="1.css">
+	
+</head>
+<body>
+
+	<div class="hero"><!--1st div-->
+				<div class="nav-bar"><!--2nd div-->
+									<div class="nav-logo"><!--logo div-->
+																		<img src="C:\Users\User\Pictures\fast-food-french-fries-mcdonald-s-logo-golden-arches-png-favpng-mPS1PXX3mFVRj2qjDPGYnp0wr.png">
+									</div>
+									<div class="nav-links" id="nav-links"><!--nav links div-->
+																<i class="fa fa-close" onclick="closeMenu()"></i>
+																	<ul>
+																										<a href="#"><li>HOME</li></a>
+																										<a href="#"><li>ABOUT</li></a>
+																										<a href="#"><li>CONTACT US</li></a>
+																	</ul>
+																											<button type="button" class="btn">SIGN UP</button><!---btn----->
+									</div>
+																											<i class="fa fa-bars" onclick="showMenu()"></i><!---bars logo when op shows in small window---->
+				</div>
+												<div class="banner-title"><!---banner title div---->
+																									<h1>Food <span>Doesn't have a religion.</span> <br> It is a religion.</h1>
+																									<button type="button" class="btn1">EXPLORE</button>
+												</div>
+																		<div class="vertical-bar"><!---vertical bar div of  left corner---->
+																								<div class="search-icon"><!---search icon cls of top vertical bar---->
+																													<i class="fa fa-list"></i>
+																													<i class="fa fa-search"></i>
+																								</div>
+																		</div>
+																		<div class="social-icons"><!---social icon cls of bottom vertical bar---->
+																													<i class="fa fa-facebook"></i>
+																													<i class="fa fa-instagram"></i>
+																													<i class="fa fa-twitter"></i>
+																													<i class="fa fa-pinterest"></i>
+																		</div>
+
+																		<div class="notifications"><!---class of notification panel at bottom right corner ---->
+																														<div class="contents"><!---class of contents at bottom right corner ---->
+																																				<small>Suscribe easy tutorials you tube channel and never miss any new videos.</small>
+																																				<p><a href="">PREVIOUS</a><a href="">NEXT</a></p>
+																														</div>
+																														<div class="notification-img">
+																																					<img src="C:\Users\User\Pictures\New folder\462773.jpg">
+																														</div>
+																		</div>
+	</div>
+
+  <script>
+					var show = document.getElementById("nav-links");
+
+					function showMenu(argument) {
+						show.style.right="0";
+						// body...
+					}
+					function closeMenu(argument) {
+						show.style.right="-200px";
+						// body...
+					}
+	
+  </script>
+
+</body>
+</html>

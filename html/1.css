@@ -1,0 +1,206 @@
+.hero{/*1st div class*/
+	height: 100vh;
+	/*linear gradient i.e. 0.7 shows the opacity of img */
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://c4.wallpaperflare.com/wallpaper/646/592/902/black-background-sandwich-hamburger-bokeh-fast-food-hd-wallpaper-preview.jpg");
+	background-position: center;
+	background-size: cover;
+	/*overflow-x: hidden;
+	position: relative;*/
+}
+.nav-bar{/*2nd div class*/
+	display: flex;
+	padding: 40px 120px;
+}
+             
+.nav-logo img{/*logo div class*/
+	width: 135px;
+}
+.nav-links{/*nav links class*/
+	flex: 1;
+}
+.nav-links ul{/*nav links ul list*/
+	margin-left: 50px;
+	display: inline;
+}
+.nav-links ul li {/*nav links ul list items*/
+	list-style: none;
+	display: inline-block;
+	padding: 8px 25px;
+}
+.nav-links ul a{/*nav links ul list items attribute*/
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+}
+.nav-links ul li::after{/*add underline to the navigaton list items*/
+	content:'';
+	width: 0%;
+	height: 1px;
+	background-color: yellow;
+	display: block;
+	transition: .5s;
+}
+.nav-links ul li:hover::after{/*when cursor goes on the navigation list items its width become 100% */
+	width: 100%;
+}
+.btn{/*sign up btn class*/
+	padding: 10px 20px;
+	border: 0;
+	background: yellow;
+	font-weight: bold;
+	cursor: pointer;
+	margin-left: 650px;
+}
+.btn1{/*Explore btn class*/
+	padding: 10px 20px;
+	border: 0;
+	background: yellow;
+	font-weight: bold;
+	cursor: pointer;
+	margin-left: 20px;
+}
+.banner-title{/*banner title class*/
+	margin: 80px 130px;
+	color: white;
+	margin-top:-50px;
+}
+.banner-title h1{/*banner title heading*/
+	font-size: 64px;
+	margin-bottom: 30px;
+}
+.banner-title h1 span{/*banner title span item*/
+	color: yellow;
+}
+.vertical-bar{/*class of vertical bar at  left corner*/
+	height: 90%;
+	background: black;
+	top: 0;
+	left: 1;
+	position: absolute;
+}
+
+.search-icon{/*cls of vertical bar  of top icon*/
+	height: 40%;
+	width: 50px;
+	/*background: yellow;
+	text-align: center;
+	padding-top: 27%;
+	bottom: 0;
+	position: absolute;*/
+
+}
+.search-icon .fa{/*cls of vertical bar of top icon*/
+	margin: 45px 10px;
+	display: block;
+	color: #fff;
+	font-size: 30px;
+	cursor: pointer;
+}
+.social-icons{/*cls of vertical bar social icon at bottom left corner*/
+	height: 21%;
+	width: 50px;
+	background: yellow;
+	text-align: center;
+	padding-top: 3%;
+	bottom: 0;
+	position: absolute;
+	left: 1;
+}
+.social-icons .fa{/*cls of vertical bar social icons*/
+	margin: 10px 13px 0px 9px;
+	display: block;
+	padding: 5px;
+	border: 1px solid #000;
+	border-radius: 80px;
+	cursor:pointer;
+}
+.notifications{/*---class of notification panel at bottom right corner----*/
+	display: flex;
+	width: 400px;
+	right: 8px;
+	bottom: -8px;
+	position: absolute;
+	background: yellow;
+	text-align: center;
+}
+.contents{/*class of contents at bottom right corner*/
+	flex-basis: 50%;
+	padding: 10px;
+}
+.notification-img{/*class of co at bottom right corner*/
+	flex-basis: 50%;
+}
+.notification-img img{
+	width: 100%;
+	bottom: 18px;
+}
+.contents a{
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+	margin: 0 10px;
+}
+.contents p{           
+	text-align: right;
+	margin-top: 10px;
+}
+/*.nav-bar .fa{
+	display: none;
+
+}*/
+
+@media (max-width: 700px){/*when screen size is less than change media*/
+	.vertical-bar{
+		display: absolute;
+	}
+	.banner-title{
+		margin: 80px 40px;
+		margin-left: 50px;
+	}
+	.banner-title h1{
+		font-size: 50px;
+	}
+	.notifications{
+		width: 50%;
+		height: 17%;
+	}
+	/*.nav-bar{
+		padding: 10px 30px;
+	}*/
+	.nav-logo{
+		margin-left: 30px;
+	}
+	.fa-bars{/*logo of bar at right top corner of screen when screen in short view*/
+		position: absolute;
+		right: 20px;
+		top: 10px;
+	}
+	.nav-bar .fa{ /*icons under nav bar*/
+		display: block;
+		color: #fff;/*white color*/
+		margin: 10px 25px;
+		font-size: 22px;
+		cursor: pointer;
+
+	}
+	.nav-links{
+		height: 100vh;
+		width: 200px;
+		background: #000;
+		top: 0;
+		right: -200px;
+		position: absolute;
+		text-align: left;
+		z-index: 2;
+		transition: 0.5s;
+	}
+	.nav-links ul a{
+		display: block;
+
+	}
+	.nav-links .btn{
+		float: none;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+}

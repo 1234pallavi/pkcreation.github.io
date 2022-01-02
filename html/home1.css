@@ -1,0 +1,263 @@
+.div0{
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(rgba(0, 0, 0,0.5)50%,rgba(0, 0, 0, 0.5)50%),url(https://p4-ofp.static.pub/ShareResource/brands/legion_assets/imgs_and_others/carousel/b/lenovo-legion-brand-feature-9-gallery-image-2.jpg);
+	height:800px ;
+}
+h1{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+p{
+	color: orange;
+	font-size: 25px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 50px;
+}
+
+.div0 .scroll-bg{
+	background:transparent;
+	width: 760px;
+	height: 470px;
+	margin-left: 350px;
+
+}
+.div0 .scroll-div{
+	width: 750px;
+	height: 450px;
+	overflow: hidden;
+	overflow-y: scroll;
+
+}
+/*.div0 .scroll-object{
+	height: 800px;
+	width: 400px;
+}*/
+.div0 .scroll-object img{
+	height: 550px;
+	width: 700px;
+	margin-left: 18px;
+	margin-top: 18px;
+	margin-bottom: 18px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+.icons{
+	margin-left: 580px;
+	margin-top: 100px;
+	background-color: black;
+	margin-right: 620px;
+}
+.icons a{
+	color: orange;
+	text-align: center;
+	margin-left: 25px;
+	font-size: 25px;
+	transition: 0.4s ease;
+}
+.icons :hover{
+	color: white;
+	font-size: 30px;
+}
+
+.div2{
+	background: linear-gradient(rgba(0, 0, 0, 0.4)50%,rgba(0, 0, 0,0.4)50%),url(https://live.staticflickr.com/7592/16888464777_0073470e81_b.jpg);
+	height: 600px;
+	margin-top: 30px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+.div2 h1{
+	color: orange;
+	margin-left: 170px;
+}
+.div2 .img1{
+	margin-top: -100px;
+}
+.div2 img{
+	height: 600px;
+	width: 490px;
+}
+.div2 p{
+	border-left: 3px solid orange;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-color: orange;
+	border-bottom-right-radius: 50px;
+	font-family: times new roman;
+	opacity: 80%;
+	color: black;
+	font-size: 25px;
+	margin-top: -520px;
+	margin-left: 450px;
+	margin-right: 470px;
+}
+/*.p0{
+	border: 2px solid red;
+	color: white;
+	margin-right: 10px;
+	margin-left: 1050px;
+	margin-top: -450px;
+}*/
+.p1{
+	margin-left: 1050px;
+	margin-right: 600px;
+	margin-top: -500px;
+}
+ul{
+	color: white;
+	margin-left: 1050px;
+	margin-top: -8px;
+
+}
+ul li{
+	font-size: 18px;
+}
+ul span{
+	color: black;
+	font-size: 20px;
+}
+.div2 a{
+	margin-left: 650px;
+	color: darkblue;
+	font-size: 25px;
+	margin-top: 150px;
+}
+
+
+
+
+
+.div3{
+	background: linear-gradient(rgba(0, 0, 0, 0.4)50%,rgba(0, 0, 0,0.4)50%),url(https://live.staticflickr.com/7592/16888464777_0073470e81_b.jpg);
+	height: 600px;
+	margin-top: 60px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+.div3 h1{
+	color: orange;
+	margin-left: 50px;
+}
+.div3 .img1{
+	margin-top: -100px;
+}
+.div3 img{
+	height: 420px;
+	width: 380px;
+	margin-left: 20px;
+}
+.div3 p{
+	border-left: 3px solid orange;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-color: orange;
+	border-bottom-right-radius: 50px;
+	font-family: times new roman;
+	opacity: 80%;
+	color: black;
+	font-size: 25px;
+	margin-top: -320px;
+	margin-left: 440px;
+	margin-right: 470px;
+}
+/*.p0{
+	border: 2px solid red;
+	color: white;
+	margin-right: 10px;
+	margin-left: 1050px;
+	margin-top: -450px;
+}*/
+.p2{
+	margin-left: 1060px;
+	margin-right: 600px;
+	margin-top: -500px;
+}
+ul{
+	color: white;
+	margin-left: 1050px;
+	margin-top: -8px;
+
+}
+ul li{
+	font-size: 18px;
+}
+ul span{
+	color: black;
+	font-size: 20px;
+}
+.div3 a{
+	margin-left: 650px;
+	color: darkblue;
+	font-size: 25px;
+	margin-top: 150px;
+}
+
+
+
+
+
+.div4{
+	background: linear-gradient(rgba(0, 0, 0, 0.4)50%,rgba(0, 0, 0,0.4)50%),url(https://live.staticflickr.com/7592/16888464777_0073470e81_b.jpg);
+	height: 600px;
+	margin-top: 70px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+.div4 h1{
+	color: orange;
+	margin-left: 50px;
+}
+.div4 .img1{
+	margin-top: -20px;
+}
+.div4 img{
+	height: 420px;
+	width: 380px;
+	margin-left: 30px;
+	margin-top: 100px;
+	}
+.div4 p{
+	border-left: 3px solid orange;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-color: orange;
+	border-bottom-right-radius: 50px;
+	font-family: times new roman;
+	opacity: 80%;
+	color: black;
+	font-size: 25px;
+	margin-top: -400px;
+	margin-left: 440px;
+	margin-right: 470px;
+}
+.p3{
+	margin-left: 1060px;
+	margin-right: 600px;
+	margin-top: -500px;
+}
+.p3 img{
+	height: 250px;
+	width: 400px;
+}	
+ul{
+	color: white;
+	margin-left: 1050px;
+	margin-top: -8px;
+
+}
+ul li{
+	font-size: 18px;
+}
+ul span{
+	color: black;
+	font-size: 20px;
+}
+.div4 a{
+	margin-left: 650px;
+	color: darkblue;
+	font-size: 25px;
+	margin-top: 150px;
+}
